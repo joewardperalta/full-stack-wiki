@@ -63,3 +63,79 @@ The hyper in HTML comes from its ability to embed links inside content.
 - Hypertext Reference `href` contains the destination to a page, site, file, or section
 
 This is what makes the web an interconnected hypertext documents.
+
+## What is an HTML Document?
+
+An **HTML document** is a file with a `.html` extension that contains HTML code, which a web browser can read and render into a web page. It includes all the elements and structure needed for a page, such as headings, paragraphs, links, images, and metadata.
+
+The most common HTML file is a `index.html` which is a default HTML page (homepage) of a website or a folder on a server.
+
+When a user visits a domain (e.g., `example.com`) or a subdirectory (e.g., `example.com/blog/`), the web server looks for an **index file** (commonly `index.html`) and serves it automatically.
+
+This convention has existed since the early days of the web and is sill the standard today.
+
+### The Basic Structure of an HTML Document
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Page</title>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+    <p>This is my first HTML document.</p>
+  </body>
+</html>
+```
+
+- `<!DOCTYPE html>` - tells the browser this is an HTML5 document
+- `<html>` - the root element; everything goes inside this
+- `<head>` - contains metadata (title, styles, SEO info, etc.)
+- `<title>` - defines the page's title (appears on the browser tab)
+- `<body>` - contains the visible content (text, images, links, etc.)
+
+### Why use `index.html` instead of any name?
+
+#### 1. Default Behavior of Web Servers
+
+Servers like **Apache**, **Nginx**, **IIS**, and **Node.js** frameworks are usually configured to look for a file named `index.html` when no file is specified in the URL
+
+##### For example
+
+- `https://example.com/` automatically shows `index.html` in the web browser
+- If the homepage is named `home.html`, the visitor must type `https://example.com/home.html` (less user-friendly)
+
+#### 2. User-Friendly URLS
+
+Without `index.html`, users would need to remember file names.
+
+##### For example
+
+- With `index.html`: `https://myportfolio.com`
+- Without `index.html`: `https://myportfolio.com/startpage.html`
+
+Clear URLs make websites easier to access, type, and share.
+
+#### 3. Web Hosting Requirement
+
+Many hosting services like GitHub Pages, Netlify, Vercel, and cPanel require an `index.html` file in the root folder to display the site.
+
+If the uploaded files doesn't contain `index.html`, the server may show a directory listings (all files and folders) or even an error page.
+
+#### 4. Subdirectory Default Pages
+
+`index.html` works not only for the root folder but also for subfolders.
+
+##### For example
+
+```pgsql
+website/
+├── index.html        ← main homepage
+├── about.html
+├── blog/
+│    └── index.html   ← blog homepage
+└── contact.html
+```
+
+Visiting `https://website.com/blog/` automatically shows `blog/index.html`
