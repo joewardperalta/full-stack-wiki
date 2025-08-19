@@ -12,7 +12,7 @@
 
 This is an example of a **paragraph element** (`<p>`) that contains the text content: "_My name is Joeward Peralta_".
 
-## Why is HTML a Mark Language?
+## Why is HTML a Markup Language?
 
 **Markup** refers to a system of symbols or tags inserted into a text that describe the _structure_, _meaning_, or _presentation_ of that text. It's not the actual content (the words), but it's the **extra information** that explains what the content is or how it should be handled.
 
