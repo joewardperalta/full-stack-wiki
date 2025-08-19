@@ -59,7 +59,7 @@ The hyper in HTML comes from its ability to embed links inside content.
 </p>
 ```
 
-- Ancor tag `<a>` creates a hyperlink
+- Anchor tag `<a>` creates a hyperlink
 - Hypertext Reference `href` contains the destination to a page, site, file, or section
 
 This is what makes the web an interconnected hypertext documents.
