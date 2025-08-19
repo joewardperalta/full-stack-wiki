@@ -11,3 +11,22 @@
 ```
 
 This is an example of a **paragraph element** (`<p>`) that contains the text content: "_My name is Joeward Peralta_".
+
+## Why is HTML a Mark Language?
+
+**Markup** refers to a system of symbols or tags inserted into a text that describe the _structure_, _meaning_, or _presentation_ of that text. It's not the actual content (the words), but it's the **extra information** that explains what the content is or how it should be handled.
+
+- **System** is a set of rules everyone follows
+- **Symbols/Tags** are special characters or keywords that surround or annotate text, giving it structure or meaning
+
+### For Example
+
+```html
+<p>Hello, World</p>
+```
+
+- `<p>` is an opening tag that tells the browser to start a paragraph
+- `</p>` is a closing tag that tells the browser to end the paragraph
+- Anything between `<p>` and `</p>` is treader as **paragraph content**
+
+They don't show up on the page, but they tell the browser _how to interpret the text_.
