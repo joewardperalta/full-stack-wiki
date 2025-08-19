@@ -4,7 +4,7 @@
 
 **HTML (HyperText Markup Language)** is a markup language used to define the structure and content of a web page. It consists of a set of **tags (elements)** that give meaning to different types of content, such as headings, paragraphs, links, and images.
 
-### For Example
+### For example
 
 ```html
 <p>My name is Joeward Peralta</p>
@@ -19,7 +19,18 @@ This is an example of a **paragraph element** (`<p>`) that contains the text con
 - **System** is a set of rules everyone follows
 - **Symbols/Tags** are special characters or keywords that surround or annotate text, giving it structure or meaning
 
-### For Example
+### Rules
+
+HTML is a markup system that contains **rules (syntax)**:
+
+- Tags must be inside angle brackets `< >`
+- Must have an opening and closing tags `<p>...</p>` except for tags that are self-closing such as an image tag `<img>`
+- Every page must start with an HTML tag `<html>...</html>`
+- Headings use `<h1>` to `<h6>`
+- Links use `<a href="">`
+- Content goes inside `<body>`
+
+### For example
 
 ```html
 <p>Hello, World</p>
@@ -27,6 +38,6 @@ This is an example of a **paragraph element** (`<p>`) that contains the text con
 
 - `<p>` is an opening tag that tells the browser to start a paragraph
 - `</p>` is a closing tag that tells the browser to end the paragraph
-- Anything between `<p>` and `</p>` is treader as **paragraph content**
+- Anything between `<p>` and `</p>` is treated as a **paragraph content**
 
 They don't show up on the page, but they tell the browser _how to interpret the text_.
