@@ -41,3 +41,25 @@ HTML is a markup system that contains **rules (syntax)**:
 - Anything between `<p>` and `</p>` is treated as a **paragraph content**
 
 They don't show up on the page, but they tell the browser _how to interpret the text_.
+
+## Why is HTML a HyperText?
+
+HTML is called a HyperText language because it allows text to contain **links (hyperlinks)** that connect one document to another, letting users jump non-linearly between documents/resources. This ability to interlink documents is what makes the World Wide Web a "web" of connected information.
+
+Unlike printed books (which is read from page 1 to page 100 in sequence), hypertext lets you jump from one document to another via **links**.
+
+### For example
+
+The hyper in HTML comes from its ability to embed links inside content.
+
+```html
+<p>
+  Learn more about
+  <a href="https://developer.mozilla.org/">HTML here</a>.
+</p>
+```
+
+- Ancor tag `<a>` creates a hyperlink
+- Hypertext Reference `href` contains the destination to a page, site, file, or section
+
+This is what makes the web an interconnected hypertext documents.
