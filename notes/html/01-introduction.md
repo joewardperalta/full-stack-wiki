@@ -105,7 +105,7 @@ This convention has existed since the early days of the web and is sill the stan
 
 ### Why use `index.html` instead of any name?
 
-1. Default Behavior of Web Servers
+#### 1. Default Behavior of Web Servers
 
 Servers like **Apache**, **Nginx**, **IIS**, and **Node.js** frameworks are usually configured to look for a file named `index.html` when no file is specified in the URL
 
@@ -114,7 +114,7 @@ Servers like **Apache**, **Nginx**, **IIS**, and **Node.js** frameworks are usua
 - `https://example.com/` automatically shows `index.html` in the web browser
 - If the homepage is named `home.html`, the visitor must type `https://example.com/home.html` (less user-friendly)
 
-2. User-Friendly URLS
+#### 2. User-Friendly URLS
 
 Without `index.html`, users would need to remember file names.
 
@@ -125,13 +125,13 @@ Without `index.html`, users would need to remember file names.
 
 Clear URLs make websites easier to access, type, and share.
 
-3. Web Hosting Requirement
+#### 3. Web Hosting Requirement
 
 Many hosting services like GitHub Pages, Netlify, Vercel, and cPanel require an `index.html` file in the root folder to display the site.
 
 If the uploaded files doesn't contain `index.html`, the server may show a directory listings (all files and folders) or even an error page.
 
-4. Subdirectory Default Pages
+#### 4. Subdirectory Default Pages
 
 `index.html` works not only for the root folder but also for subfolders.
 
