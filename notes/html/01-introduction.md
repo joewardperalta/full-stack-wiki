@@ -147,3 +147,15 @@ website/
 ```
 
 Visiting `https://website.com/blog/` automatically shows `blog/index.html`
+
+## Anatomy of an HTML Element
+
+```html
+<p>My name is Joeward Peralta</p>
+```
+
+This skeleton consists of:
+
+- **Opening tag** - is the `p` tag wrapped in `<>` brackets
+- **Content** - is the text in between of the opening tag `<p>` and closing tag `</p>`
+- **Closing tag** - is the same as the opening tag but it includes a forward slash `/` before the element name
