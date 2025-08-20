@@ -1,20 +1,24 @@
 # Introduction to HTML
 
+**HTML (HyperText Markup Language)** is the standard language used to build web pages. It provides the structure and meaning of content through elements such as headings, paragraphs, and links. Every website you visit is built using HTML as its foundation.
+
 ## What is an HTML?
 
-**HTML (HyperText Markup Language)** is a markup language used to define the structure and content of a web page. It consists of a set of **tags (elements)** that give meaning to different types of content, such as headings, paragraphs, links, and images.
+**HTML** is a markup language used to define the structure and content of a web page. It consists of a set of **tags** that give meaning to different types of content, such as headings, paragraphs, links, and images.
 
-### For example
+**For example:**
 
 ```html
 <p>My name is Joeward Peralta</p>
 ```
 
-This is an example of a **paragraph element** (`<p>`) that contains the text content: "_My name is Joeward Peralta_".
+This is an example of a **paragraph element (`<p>`)** that contains the text content: "_My name is Joeward Peralta_".
+
+---
 
 ## Why is HTML a Markup Language?
 
-**Markup** refers to a system of symbols or tags inserted into a text that describe the _structure_, _meaning_, or _presentation_ of that text. It's not the actual content (the words), but it's the **extra information** that explains what the content is or how it should be handled.
+**Markup** refers to a system of symbols or tags inserted into a text that describe the _structure_, _meaning_, or _presentation_ of that text. It's not the actual content (the words), but it's the extra information that explains what the content is or how it should be handled.
 
 - **System** is a set of rules everyone follows
 - **Symbols/Tags** are special characters or keywords that surround or annotate text, giving it structure or meaning
@@ -30,7 +34,7 @@ HTML is a markup system that contains **rules (syntax)**:
 - Links use `<a href="">`
 - Content goes inside `<body>`
 
-### For example
+**For example:**
 
 ```html
 <p>Hello, World</p>
@@ -42,15 +46,15 @@ HTML is a markup system that contains **rules (syntax)**:
 
 They don't show up on the page, but they tell the browser _how to interpret the text_.
 
+---
+
 ## Why is HTML a HyperText?
 
 HTML is called a HyperText language because it allows text to contain **links (hyperlinks)** that connect one document to another, letting users jump non-linearly between documents/resources. This ability to interlink documents is what makes the World Wide Web a "web" of connected information.
 
 Unlike printed books (which is read from page 1 to page 100 in sequence), hypertext lets you jump from one document to another via **links**.
 
-### For example
-
-The hyper in HTML comes from its ability to embed links inside content.
+**For example:**
 
 ```html
 <p>
@@ -62,7 +66,9 @@ The hyper in HTML comes from its ability to embed links inside content.
 - Anchor tag `<a>` creates a hyperlink
 - Hypertext Reference `href` contains the destination to a page, site, file, or section
 
-This is what makes the web an interconnected hypertext documents.
+The 'Hyper' in HTML comes from its ability to embed links inside content. This is what makes the web a network of interconnected hypertext documents.
+
+---
 
 ## What is an HTML Document?
 
@@ -72,7 +78,9 @@ The most common HTML file is a `index.html` which is a default HTML page (homepa
 
 When a user visits a domain (e.g., `example.com`) or a subdirectory (e.g., `example.com/blog/`), the web server looks for an **index file** (commonly `index.html`) and serves it automatically.
 
-This convention has existed since the early days of the web and is sill the standard today.
+This convention has existed since the early days of the web and is still the standard today.
+
+---
 
 ### The Basic Structure of an HTML Document
 
@@ -101,16 +109,16 @@ This convention has existed since the early days of the web and is sill the stan
 
 Servers like **Apache**, **Nginx**, **IIS**, and **Node.js** frameworks are usually configured to look for a file named `index.html` when no file is specified in the URL
 
-##### For example
+**For example:**
 
 - `https://example.com/` automatically shows `index.html` in the web browser
 - If the homepage is named `home.html`, the visitor must type `https://example.com/home.html` (less user-friendly)
 
-#### 2. User-Friendly URLS
+#### 2. User-Friendly URLs
 
 Without `index.html`, users would need to remember file names.
 
-##### For example
+**For example:**
 
 - With `index.html`: `https://myportfolio.com`
 - Without `index.html`: `https://myportfolio.com/startpage.html`
@@ -121,13 +129,13 @@ Clear URLs make websites easier to access, type, and share.
 
 Many hosting services like GitHub Pages, Netlify, Vercel, and cPanel require an `index.html` file in the root folder to display the site.
 
-If the uploaded files doesn't contain `index.html`, the server may show a directory listings (all files and folders) or even an error page.
+If the uploaded files don't contain `index.html`, the server may show a directory listings (all files and folders) or even an error page.
 
 #### 4. Subdirectory Default Pages
 
 `index.html` works not only for the root folder but also for subfolders.
 
-##### For example
+**For example:**
 
 ```pgsql
 website/
@@ -139,3 +147,15 @@ website/
 ```
 
 Visiting `https://website.com/blog/` automatically shows `blog/index.html`
+
+## Anatomy of an HTML Element
+
+```html
+<p>My name is Joeward Peralta</p>
+```
+
+The anatomy of this element includes:
+
+- **Opening tag** - the `p` tag wrapped in `<>` brackets
+- **Content** - the text between the opening tag `<p>` and closing tag `</p>`
+- **Closing tag** - the same as the opening tag, but with a forward slash `/` before the element name
