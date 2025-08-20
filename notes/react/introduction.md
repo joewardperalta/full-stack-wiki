@@ -27,7 +27,7 @@ By the end of this section, you should be able to:
 
 ## What is React?
 
-React is a [**JavaScript library**](/notes/react/javascript-library.md) (not a full framework) created by **Facebook (Meta)** in 2013. Its main purpose is to **build user interfaces (UI)**, especially **single-page applications (SPAs)** where the page dynamically updates without refreshing.
+React is a [**JavaScript library**](/notes/javascript/javascript-library.md) (not a full framework) created by **Facebook (Meta)** in 2013. Its main purpose is to **build user interfaces (UI)**, especially **single-page applications (SPAs)** where the page dynamically updates without refreshing.
 
 At its core, React is all about **components** and **state**:
 
