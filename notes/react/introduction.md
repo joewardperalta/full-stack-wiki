@@ -1,4 +1,4 @@
-# <img src="/images/reactjs.png" alt="Blue atom" width="16" height="16"></img> Introduction to React
+# <img src="/images/reactjs.png" alt="Blue atom" width="32" height="32"></img> Introduction to React
 
 This section introduces **React.js**, explains what it is, and outlines why many modern developers choose it. These notes aim to provide you with a clear understanding of React’s purpose, core concepts, and advantages in real-world software development.
 
