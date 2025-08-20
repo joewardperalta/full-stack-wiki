@@ -1,8 +1,10 @@
 # Introduction to HTML
 
+**HTML (HyperText Markup Language)** is the standard language used to build web pages. It provides the structure and meaning of content through elements such as headings, paragraphs, and links. Every website you visit is built using HTML as its foundation.
+
 ## What is an HTML?
 
-**HTML (HyperText Markup Language)** is a markup language used to define the structure and content of a web page. It consists of a set of **tags (elements)** that give meaning to different types of content, such as headings, paragraphs, links, and images.
+**HTML** is a markup language used to define the structure and content of a web page. It consists of a set of **tags** that give meaning to different types of content, such as headings, paragraphs, links, and images.
 
 **For example:**
 
