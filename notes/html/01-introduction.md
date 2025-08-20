@@ -66,7 +66,7 @@ Unlike printed books (which is read from page 1 to page 100 in sequence), hypert
 - Anchor tag `<a>` creates a hyperlink
 - Hypertext Reference `href` contains the destination to a page, site, file, or section
 
-The hyper in HTML comes from its ability to embed links inside content. This is what makes the web an interconnected hypertext documents.
+The 'Hyper' in HTML comes from its ability to embed links inside content. This is what makes the web a network of interconnected hypertext documents.
 
 ---
 
@@ -78,7 +78,7 @@ The most common HTML file is a `index.html` which is a default HTML page (homepa
 
 When a user visits a domain (e.g., `example.com`) or a subdirectory (e.g., `example.com/blog/`), the web server looks for an **index file** (commonly `index.html`) and serves it automatically.
 
-This convention has existed since the early days of the web and is sill the standard today.
+This convention has existed since the early days of the web and is still the standard today.
 
 ---
 
@@ -114,7 +114,7 @@ Servers like **Apache**, **Nginx**, **IIS**, and **Node.js** frameworks are usua
 - `https://example.com/` automatically shows `index.html` in the web browser
 - If the homepage is named `home.html`, the visitor must type `https://example.com/home.html` (less user-friendly)
 
-#### 2. User-Friendly URLS
+#### 2. User-Friendly URLs
 
 Without `index.html`, users would need to remember file names.
 
@@ -129,7 +129,7 @@ Clear URLs make websites easier to access, type, and share.
 
 Many hosting services like GitHub Pages, Netlify, Vercel, and cPanel require an `index.html` file in the root folder to display the site.
 
-If the uploaded files doesn't contain `index.html`, the server may show a directory listings (all files and folders) or even an error page.
+If the uploaded files don't contain `index.html`, the server may show a directory listings (all files and folders) or even an error page.
 
 #### 4. Subdirectory Default Pages
 
@@ -156,6 +156,6 @@ Visiting `https://website.com/blog/` automatically shows `blog/index.html`
 
 This skeleton consists of:
 
-- **Opening tag** - is the `p` tag wrapped in `<>` brackets
-- **Content** - is the text in between of the opening tag `<p>` and closing tag `</p>`
-- **Closing tag** - is the same as the opening tag but it includes a forward slash `/` before the element name
+- **Opening tag** - the `p` tag wrapped in `<>` brackets
+- **Content** - the text between the opening tag `<p>` and closing tag `</p>`
+- **Closing tag** - the same as the opening tag, but with a forward slash `/` before the element name
