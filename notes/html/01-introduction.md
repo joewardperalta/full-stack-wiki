@@ -154,7 +154,7 @@ Visiting `https://website.com/blog/` automatically shows `blog/index.html`
 <p>My name is Joeward Peralta</p>
 ```
 
-This skeleton consists of:
+The anatomy of this element includes:
 
 - **Opening tag** - the `p` tag wrapped in `<>` brackets
 - **Content** - the text between the opening tag `<p>` and closing tag `</p>`
