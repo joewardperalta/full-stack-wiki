@@ -4,7 +4,7 @@ This section introduces **React.js**, explains what it is, and outlines why many
 
 ## 📖 What These Notes Explain
 
-- The definition of **React** and why it's classified as a **JavaScript library** rather than a framework.
+- The definition of **React** and why it's classified as a [**JavaScript library**](/notes/react/javascript-library.md) rather than a framework.
 - The **core principles** of React (components and state).
 - The **benefits of using React** in modern web development.
 - Practical examples comparing React with plain JavaScript.
